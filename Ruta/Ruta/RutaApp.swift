@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct RutaApp: App {
+    let container = AppContainer()
+
     var body: some Scene {
         WindowGroup {
-            LaunchView()
+            container.makeLaunchView()
         }
     }
 }
