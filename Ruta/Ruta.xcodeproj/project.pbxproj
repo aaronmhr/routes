@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9340EB482B1820E000BABF8E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340EB472B1820E000BABF8E /* OnboardingView.swift */; };
 		9353A3252B1692300028CBB2 /* RutaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9353A3242B1692300028CBB2 /* RutaApp.swift */; };
 		9353A3292B1692310028CBB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9353A3282B1692310028CBB2 /* Assets.xcassets */; };
 		9353A32C2B1692310028CBB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9353A32B2B1692310028CBB2 /* Preview Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9340EB472B1820E000BABF8E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		9353A3212B1692300028CBB2 /* Ruta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ruta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9353A3242B1692300028CBB2 /* RutaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutaApp.swift; sourceTree = "<group>"; };
 		9353A3282B1692310028CBB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9340EB462B1820C900BABF8E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				9340EB472B1820E000BABF8E /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		9353A3182B1692300028CBB2 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +102,7 @@
 		9353A3232B1692300028CBB2 /* Ruta */ = {
 			isa = PBXGroup;
 			children = (
+				9340EB462B1820C900BABF8E /* Onboarding */,
 				9353A3242B1692300028CBB2 /* RutaApp.swift */,
 				9353A3282B1692310028CBB2 /* Assets.xcassets */,
 				9353A32A2B1692310028CBB2 /* Preview Content */,
@@ -255,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9353A3252B1692300028CBB2 /* RutaApp.swift in Sources */,
+				9340EB482B1820E000BABF8E /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
