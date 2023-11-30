@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9353A3252B1692300028CBB2 /* RutaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9353A3242B1692300028CBB2 /* RutaApp.swift */; };
-		9353A3272B1692300028CBB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9353A3262B1692300028CBB2 /* ContentView.swift */; };
 		9353A3292B1692310028CBB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9353A3282B1692310028CBB2 /* Assets.xcassets */; };
 		9353A32C2B1692310028CBB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9353A32B2B1692310028CBB2 /* Preview Assets.xcassets */; };
 		9353A3362B1692310028CBB2 /* RutaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9353A3352B1692310028CBB2 /* RutaTests.swift */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		9353A3212B1692300028CBB2 /* Ruta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ruta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9353A3242B1692300028CBB2 /* RutaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutaApp.swift; sourceTree = "<group>"; };
-		9353A3262B1692300028CBB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9353A3282B1692310028CBB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9353A32B2B1692310028CBB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9353A3312B1692310028CBB2 /* RutaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RutaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				9353A3242B1692300028CBB2 /* RutaApp.swift */,
-				9353A3262B1692300028CBB2 /* ContentView.swift */,
 				9353A3282B1692310028CBB2 /* Assets.xcassets */,
 				9353A32A2B1692310028CBB2 /* Preview Content */,
 			);
@@ -257,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9353A3272B1692300028CBB2 /* ContentView.swift in Sources */,
 				9353A3252B1692300028CBB2 /* RutaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
