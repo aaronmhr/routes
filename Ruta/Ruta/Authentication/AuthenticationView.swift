@@ -1,5 +1,5 @@
 //
-//  OnboardingView.swift
+//  AuthenticationView.swift
 //  Ruta
 //
 //  Created by Aaron on 30/11/2023.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct OnboardingView: View {
+struct AuthenticationView: View {
     var body: some View {
-        Color.indigo
+        Color.red
     }
 }
 
 #Preview {
-    OnboardingView()
+    AuthenticationView()
 }

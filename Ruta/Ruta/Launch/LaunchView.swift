@@ -1,5 +1,5 @@
 //
-//  OnboardingView.swift
+//  LaunchView.swift
 //  Ruta
 //
 //  Created by Aaron on 30/11/2023.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct OnboardingView: View {
+struct LaunchView: View {
     var body: some View {
-        Color.indigo
+        Color.yellow
     }
 }
 
 #Preview {
-    OnboardingView()
+    LaunchView()
 }
