@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		932E92DB2B1CDFE0002C0548 /* LaunchViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932E92DA2B1CDFE0002C0548 /* LaunchViewModelTests.swift */; };
 		9340EB482B1820E000BABF8E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340EB472B1820E000BABF8E /* OnboardingView.swift */; };
 		9340EB4B2B18223000BABF8E /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340EB4A2B18223000BABF8E /* AppContainer.swift */; };
 		9340EB4F2B1822E300BABF8E /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340EB4E2B1822E300BABF8E /* AuthenticationView.swift */; };
@@ -15,9 +16,6 @@
 		9353A3252B1692300028CBB2 /* RutaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9353A3242B1692300028CBB2 /* RutaApp.swift */; };
 		9353A3292B1692310028CBB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9353A3282B1692310028CBB2 /* Assets.xcassets */; };
 		9353A32C2B1692310028CBB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9353A32B2B1692310028CBB2 /* Preview Assets.xcassets */; };
-		9353A3362B1692310028CBB2 /* RutaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9353A3352B1692310028CBB2 /* RutaTests.swift */; };
-		9353A3402B1692310028CBB2 /* RutaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9353A33F2B1692310028CBB2 /* RutaUITests.swift */; };
-		9353A3422B1692310028CBB2 /* RutaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9353A3412B1692310028CBB2 /* RutaUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,16 +26,11 @@
 			remoteGlobalIDString = 9353A3202B1692300028CBB2;
 			remoteInfo = Ruta;
 		};
-		9353A33C2B1692310028CBB2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9353A3192B1692300028CBB2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9353A3202B1692300028CBB2;
-			remoteInfo = Ruta;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		932E92DA2B1CDFE0002C0548 /* LaunchViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewModelTests.swift; sourceTree = "<group>"; };
+		932E92DD2B1CE127002C0548 /* Ruta.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Ruta.xctestplan; sourceTree = "<group>"; };
 		9340EB472B1820E000BABF8E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		9340EB4A2B18223000BABF8E /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
 		9340EB4E2B1822E300BABF8E /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
@@ -48,10 +41,6 @@
 		9353A3282B1692310028CBB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9353A32B2B1692310028CBB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9353A3312B1692310028CBB2 /* RutaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RutaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9353A3352B1692310028CBB2 /* RutaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutaTests.swift; sourceTree = "<group>"; };
-		9353A33B2B1692310028CBB2 /* RutaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RutaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9353A33F2B1692310028CBB2 /* RutaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutaUITests.swift; sourceTree = "<group>"; };
-		9353A3412B1692310028CBB2 /* RutaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,16 +58,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9353A3382B1692310028CBB2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		932E92D92B1CDFB0002C0548 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				932E92DA2B1CDFE0002C0548 /* LaunchViewModelTests.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
 		9340EB462B1820C900BABF8E /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,9 +112,9 @@
 		9353A3182B1692300028CBB2 = {
 			isa = PBXGroup;
 			children = (
+				932E92DD2B1CE127002C0548 /* Ruta.xctestplan */,
 				9353A3232B1692300028CBB2 /* Ruta */,
 				9353A3342B1692310028CBB2 /* RutaTests */,
-				9353A33E2B1692310028CBB2 /* RutaUITests */,
 				9353A3222B1692300028CBB2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -134,7 +124,6 @@
 			children = (
 				9353A3212B1692300028CBB2 /* Ruta.app */,
 				9353A3312B1692310028CBB2 /* RutaTests.xctest */,
-				9353A33B2B1692310028CBB2 /* RutaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,18 +154,9 @@
 		9353A3342B1692310028CBB2 /* RutaTests */ = {
 			isa = PBXGroup;
 			children = (
-				9353A3352B1692310028CBB2 /* RutaTests.swift */,
+				932E92D92B1CDFB0002C0548 /* Launch */,
 			);
 			path = RutaTests;
-			sourceTree = "<group>";
-		};
-		9353A33E2B1692310028CBB2 /* RutaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9353A33F2B1692310028CBB2 /* RutaUITests.swift */,
-				9353A3412B1692310028CBB2 /* RutaUITestsLaunchTests.swift */,
-			);
-			path = RutaUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,24 +197,6 @@
 			productReference = 9353A3312B1692310028CBB2 /* RutaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9353A33A2B1692310028CBB2 /* RutaUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9353A34B2B1692310028CBB2 /* Build configuration list for PBXNativeTarget "RutaUITests" */;
-			buildPhases = (
-				9353A3372B1692310028CBB2 /* Sources */,
-				9353A3382B1692310028CBB2 /* Frameworks */,
-				9353A3392B1692310028CBB2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9353A33D2B1692310028CBB2 /* PBXTargetDependency */,
-			);
-			name = RutaUITests;
-			productName = RutaUITests;
-			productReference = 9353A33B2B1692310028CBB2 /* RutaUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -249,10 +211,6 @@
 						CreatedOnToolsVersion = 15.0.1;
 					};
 					9353A3302B1692310028CBB2 = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 9353A3202B1692300028CBB2;
-					};
-					9353A33A2B1692310028CBB2 = {
 						CreatedOnToolsVersion = 15.0.1;
 						TestTargetID = 9353A3202B1692300028CBB2;
 					};
@@ -273,7 +231,6 @@
 			targets = (
 				9353A3202B1692300028CBB2 /* Ruta */,
 				9353A3302B1692310028CBB2 /* RutaTests */,
-				9353A33A2B1692310028CBB2 /* RutaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -289,13 +246,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9353A32F2B1692310028CBB2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9353A3392B1692310028CBB2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -322,16 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9353A3362B1692310028CBB2 /* RutaTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9353A3372B1692310028CBB2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9353A3422B1692310028CBB2 /* RutaUITestsLaunchTests.swift in Sources */,
-				9353A3402B1692310028CBB2 /* RutaUITests.swift in Sources */,
+				932E92DB2B1CDFE0002C0548 /* LaunchViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,11 +283,6 @@
 			isa = PBXTargetDependency;
 			target = 9353A3202B1692300028CBB2 /* Ruta */;
 			targetProxy = 9353A3322B1692310028CBB2 /* PBXContainerItemProxy */;
-		};
-		9353A33D2B1692310028CBB2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9353A3202B1692300028CBB2 /* Ruta */;
-			targetProxy = 9353A33C2B1692310028CBB2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -568,42 +504,6 @@
 			};
 			name = Release;
 		};
-		9353A34C2B1692310028CBB2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 42Q656CQFG;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aaronmhr.RutaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Ruta;
-			};
-			name = Debug;
-		};
-		9353A34D2B1692310028CBB2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 42Q656CQFG;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aaronmhr.RutaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Ruta;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -630,15 +530,6 @@
 			buildConfigurations = (
 				9353A3492B1692310028CBB2 /* Debug */,
 				9353A34A2B1692310028CBB2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9353A34B2B1692310028CBB2 /* Build configuration list for PBXNativeTarget "RutaUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9353A34C2B1692310028CBB2 /* Debug */,
-				9353A34D2B1692310028CBB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

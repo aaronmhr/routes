@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "835DE053-E28F-4144-9751-94DC028FB637",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Ruta.xcodeproj",
+        "identifier" : "9353A3302B1692310028CBB2",
+        "name" : "RutaTests"
+      }
+    }
+  ],
+  "version" : 1
+}
