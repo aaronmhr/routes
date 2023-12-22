@@ -12,7 +12,7 @@ final class AppContainer {
     init() { }
 
     func makeLaunchView() -> some View {
-        LaunchView()
+        OnboardingView()
     }
 
 }

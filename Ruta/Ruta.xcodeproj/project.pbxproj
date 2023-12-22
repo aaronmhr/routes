@@ -16,6 +16,8 @@
 		9353A3252B1692300028CBB2 /* RutaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9353A3242B1692300028CBB2 /* RutaApp.swift */; };
 		9353A3292B1692310028CBB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9353A3282B1692310028CBB2 /* Assets.xcassets */; };
 		9353A32C2B1692310028CBB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9353A32B2B1692310028CBB2 /* Preview Assets.xcassets */; };
+		938700482B21244600D05377 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938700472B21244600D05377 /* LoginView.swift */; };
+		9387004A2B21246700D05377 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938700492B21246700D05377 /* SignupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 		9353A3282B1692310028CBB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9353A32B2B1692310028CBB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9353A3312B1692310028CBB2 /* RutaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RutaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		938700472B21244600D05377 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		938700492B21246700D05377 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				9340EB4E2B1822E300BABF8E /* AuthenticationView.swift */,
+				938700472B21244600D05377 /* LoginView.swift */,
+				938700492B21246700D05377 /* SignupView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -260,8 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9353A3252B1692300028CBB2 /* RutaApp.swift in Sources */,
+				938700482B21244600D05377 /* LoginView.swift in Sources */,
 				9340EB542B18235500BABF8E /* LaunchView.swift in Sources */,
 				9340EB482B1820E000BABF8E /* OnboardingView.swift in Sources */,
+				9387004A2B21246700D05377 /* SignupView.swift in Sources */,
 				9340EB4F2B1822E300BABF8E /* AuthenticationView.swift in Sources */,
 				9340EB512B18230B00BABF8E /* HomeView.swift in Sources */,
 				9340EB4B2B18223000BABF8E /* AppContainer.swift in Sources */,
